@@ -3,6 +3,11 @@
 bluetooth-monitor is a deamon listenning on incoming BT devices. 
 It allows to execute a shell command on every device connection or disconnection , similar to what udev does.
 
+# install
+```
+sudo pip install -r requirements.txt
+```
+
 # configuration file
 ```
 [AA:BB:CC:DD:EE:FF]
