@@ -16,7 +16,7 @@ ondisconnect = 'echo goodbye >> /tmp/test'
 hci=hci1
 ```
 
-# Systemd Unit
+# systemd Unit
 in misc folder you can find a systemd unit , default config path for the unit is 
 
 ```
