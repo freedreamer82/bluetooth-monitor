@@ -1,6 +1,6 @@
 # bluetooth-monitor
 
-bluetooth-monitor is a deamon listenning on incoming BT devices. 
+bluetooth-monitor is a deamon listenning on incoming BT devices on Linux machine (it uses Bluez Dbus API).
 It allows to execute a shell command on every device connection or disconnection , similar to what udev does.
 
 # install
