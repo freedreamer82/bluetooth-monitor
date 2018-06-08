@@ -8,6 +8,12 @@ It allows to execute a shell command on every device connection or disconnection
 sudo pip install -r requirements.txt
 ```
 
+# Usage
+the daemon handles device already paired with the controller. In order to pair a device use
+```
+bluetoothctl
+```
+
 # configuration file
 ```
 [AA:BB:CC:DD:EE:FF]
