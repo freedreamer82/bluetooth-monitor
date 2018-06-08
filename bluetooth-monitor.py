@@ -42,10 +42,10 @@ class BTDevice:
         self.hci
         
     def getOnConnectScript(self):
-        return self.self.onconnect
+        return self.onconnect
     
     def getOnDisconnectScript(self):
-        return self.self.ondiscconnect
+        return self.ondiscconnect
 
     def getDbusObj(self):
         return "/org/bluez/"+self.hci+"/dev_"+self.mac.replace(":","_")
