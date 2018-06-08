@@ -1,0 +1,11 @@
+[Unit]
+Description=Bluetooth monitor
+Requires=bluetooth.service
+After=blueatooth.service
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/local/bin/bluetooth-monitor.py -c /etc/bluetooth-monitor/config.ini
+[Install]
+WantedBy=multi-user.target
+
